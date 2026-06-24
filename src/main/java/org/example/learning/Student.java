@@ -18,7 +18,6 @@ public class Student {
     }
 
     public void setAge(int age) {
-        System.out.println("setter activated");
         this.age = age;
     }
 

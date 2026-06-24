@@ -11,4 +11,6 @@
     </bean>
     <bean id ="st2" class = "org.example.learning.Student">
     </bean>
+    <bean id ="p1" class="org.example.learning.Pen">
+    </bean>
 </beans>
