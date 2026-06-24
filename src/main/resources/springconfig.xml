@@ -8,6 +8,7 @@
 <bean id ="st1" class = "org.example.learning.Student">
     <property name="age" value="18"/>
     <property name="rno" value="1"/>
+    <property name="pen" ref="p1"/>
     </bean>
     <bean id ="st2" class = "org.example.learning.Student">
     </bean>

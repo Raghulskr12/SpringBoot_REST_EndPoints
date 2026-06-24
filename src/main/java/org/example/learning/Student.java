@@ -4,6 +4,16 @@ public class Student {
 
     private int age;
     private int rno;
+    private Pen pen;
+
+
+    public Pen getPen() {
+        return pen;
+    }
+
+    public void setPen(Pen pen) {
+        this.pen = pen;
+    }
 
     public int getRno() {
         return rno;
@@ -19,6 +29,11 @@ public class Student {
 
     public void setAge(int age) {
         this.age = age;
+    }
+
+    public void writeExam()
+    {
+        pen.write();
     }
 
     public void show()
