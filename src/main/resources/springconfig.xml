@@ -6,6 +6,8 @@
    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
 
 <bean id ="st1" class = "org.example.learning.Student">
+    <property name="age" value="18"/>
+    <property name="rno" value="1"/>
     </bean>
     <bean id ="st2" class = "org.example.learning.Student">
     </bean>
