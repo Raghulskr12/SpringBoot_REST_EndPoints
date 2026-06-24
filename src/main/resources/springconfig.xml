@@ -7,4 +7,6 @@
 
 <bean id ="st1" class = "org.example.learning.Student">
     </bean>
+    <bean id ="st2" class = "org.example.learning.Student">
+    </bean>
 </beans>

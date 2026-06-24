@@ -11,8 +11,9 @@ public class LearningApplication {
     public static void main(String[] args) {
 
         ApplicationContext context = new ClassPathXmlApplicationContext("springconfig.xml");
-//        st1.show();
-        System.out.println("hi");
+
+        Student s1 = (Student) context.getBean("st1");
+        s1.show();
         SpringApplication.run(LearningApplication.class, args);
 
     }
