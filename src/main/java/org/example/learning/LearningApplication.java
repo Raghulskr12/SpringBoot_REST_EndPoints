@@ -2,13 +2,16 @@ package org.example.learning;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 @SpringBootApplication
 public class LearningApplication {
 
     public static void main(String[] args) {
 
-       System.out.println("Hello World");
+        ApplicationContext context = new ClassPathXmlApplicationContext("springconfig.xml");
+        SpringApplication.run(LearningApplication.class, args);
 
     }
 
