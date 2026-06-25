@@ -4,40 +4,32 @@ public class Student {
 
     private int age;
     private int rno;
-    private Pen pen;
-
-
-    public Pen getPen() {
-        return pen;
+    private Writer writer;
+    public void setWriter(Writer writer) {
+        this.writer = writer;
     }
-
-    public void setPen(Pen pen) {
-        this.pen = pen;
-    }
-
     public int getRno() {
         return rno;
     }
-
     public void setRno(int rno) {
         this.rno = rno;
     }
-
     public int getAge() {
         return age;
     }
-
     public void setAge(int age) {
         this.age = age;
     }
-
     public void writeExam()
     {
-        pen.write();
+        writer.write();
     }
-
     public void show()
     {
         System.out.println("Showing student");
+    }
+
+    public Writer getWriter() {
+        return writer;
     }
 }
