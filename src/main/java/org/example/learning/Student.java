@@ -13,6 +13,8 @@ public class Student {
         this.writer = writer;
     }
     public Student() {};
+
+
     public void writeExam() {writer.write();}
 
 }

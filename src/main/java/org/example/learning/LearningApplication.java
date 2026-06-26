@@ -19,13 +19,8 @@ public class LearningApplication {
 
 
         Student s1 = (Student) context.getBean("student");
-//        s1.writeExam();
-        System.out.println(s1.toString());
-//        s1.show();
-//        System.out.println(s1.getAge());
 //        System.out.println(s1.getRno());
-//        s1.setAge(30);
-//        System.out.println(s1.getAge());
+       s1.writeExam();
         SpringApplication.run(LearningApplication.class, args);
 
     }
