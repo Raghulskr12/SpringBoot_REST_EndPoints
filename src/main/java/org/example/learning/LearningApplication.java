@@ -13,8 +13,8 @@ public class LearningApplication {
         ApplicationContext context = new ClassPathXmlApplicationContext("springconfig.xml");
 
         Student s1 = (Student) context.getBean("st2");
-        s1.writeExam();
-        s1.getAge();
+//        s1.writeExam();
+        System.out.println(s1.getAge());
 //        s1.show();
 //        System.out.println(s1.getAge());
 //        System.out.println(s1.getRno());
