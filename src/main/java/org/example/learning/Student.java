@@ -5,17 +5,23 @@ public class Student {
     private int age;
     private int rno;
     private Writer writer;
-    public void setWriter(Writer writer) {
+
+
+    public Student(int age, int rno, Writer writer) {
+        this.age = age;
+        this.rno = rno;
         this.writer = writer;
     }
-    public int getRno() {
-        return rno;
+
+    public Student() {
+
     }
+
     public void setRno(int rno) {
         this.rno = rno;
     }
-    public int getAge() {
-        return age;
+    public void getAge() {
+        System.out.println("the age is :"+age);
     }
     public void setAge(int age) {
         this.age = age;
